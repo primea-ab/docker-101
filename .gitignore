@@ -4,3 +4,6 @@ server/.idea
 server2/vendor
 server2/.idea
 server2/docker-compose.yml
+
+server3/vendor
+server3/.idea
