@@ -7,6 +7,13 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
+	/*data, err := os.ReadFile("text.txt")
+	if err != nil {
+		fmt.Println("Error reading file:", err)
+		return
+	}
+
+	fmt.Println(string(data))*/
 	fmt.Fprintf(w, "Hello, Docker! %s", uuid.NewString())
 }
 
